@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+F:/coding/cpp/CLionProjects/chess3.0/chess.h
+string
+-
+iostream
+-
+
+F:/coding/cpp/CLionProjects/chess3.0/main.cpp
+iostream
+-
+string
+-
+chess.h
+F:/coding/cpp/CLionProjects/chess3.0/chess.h
+cstdlib
+-
+ctime
+-
+
